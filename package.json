@@ -4,4 +4,9 @@
   "devDependencies": {
     "webpack": "^1.13.1"
   }
+  {
+	  "scripts": {
+	  	"start": "webpack --watch-stdin --progress --color"
+	  }
+  }
 }
