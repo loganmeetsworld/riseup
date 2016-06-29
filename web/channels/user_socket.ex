@@ -2,7 +2,7 @@ defmodule Riseup.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "rooms:*", Riseup.RoomChannel
+  # channel "channel:*", Riseup.MessageChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
