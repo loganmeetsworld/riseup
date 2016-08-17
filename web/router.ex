@@ -13,14 +13,16 @@ defmodule Riseup.Router do
     plug :accepts, ["json"]
   end
 
+  scope "/api", Riseup do
+    pipe_through :api
+
+    resources "channels", ChannelController, only: [:create, :index]
+  end
+
   scope "/", Riseup do
-    pipe_through :browser # Use the default browser stack
+    pipe_through :browser
 
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", Riseup do
-  #   pipe_through :api
-  # end
 end
