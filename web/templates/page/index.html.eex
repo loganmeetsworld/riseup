@@ -1,4 +1,4 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Riseup!" %></h2>
+  <h2><%= gettext "Welcome to %{name}", name: "Riseup: chat app!" %></h2>
   <h2>Riseup is an anonymous chat system that auto-deletes.</h2>
 </div>
