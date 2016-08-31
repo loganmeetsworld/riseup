@@ -17,6 +17,7 @@ defmodule Riseup.Router do
     pipe_through :api
 
     resources "channels", ChannelController, only: [:create, :index]
+    resources "users", UserController, only: [:new, :create, :index]
   end
 
   scope "/", Riseup do
