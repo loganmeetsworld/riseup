@@ -16,7 +16,7 @@
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
-            Riseup App (Chat App)
+            Riseup App: A chat application that allows users to talk anonymously.
           </ul>
         </nav>
         <span class="logo"></span>
